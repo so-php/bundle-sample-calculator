@@ -1,0 +1,14 @@
+{
+    "name": "so-php/bundle-sample-calculator",
+    "description": "SOPHP Sample Bundle for Calculator Service",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Jeremy Giberson",
+            "email": "jeremygiberson@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"SoPhp\\Bundle\\Sample\\Calculator\\": "SoPhp\\Bundle\\Sample\\Calculator/"}
+    }
+}
