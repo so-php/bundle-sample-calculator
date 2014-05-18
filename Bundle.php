@@ -9,7 +9,7 @@ use SoPhp\Framework\Activator\Context\Context;
 use SoPhp\Framework\Bundle\AutoloaderProviderInterface;
 use SoPhp\Framework\Bundle\BundleInterface;
 
-class Bundle implements BundleInterface, AutoloaderProviderInterface {
+class Bundle implements BundleInterface {
     /** @var  Context */
     protected $context;
     /** @var  ActivatorInterface */
@@ -30,11 +30,5 @@ class Bundle implements BundleInterface, AutoloaderProviderInterface {
     {
         return $this->context;
     }
-
-    public function getAutoloader()
-    {
-        require_once __DIR__ . '/vendor/autoload.php';
-    }
-
 
 }
