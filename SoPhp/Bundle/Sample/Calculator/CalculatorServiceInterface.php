@@ -18,4 +18,18 @@ interface CalculatorServiceInterface {
      * @return number
      */
     public function subtract($a, $b);
+
+    /**
+     * @param $a
+     * @param $b
+     * @return number
+     */
+    public function multiply($a, $b);
+
+    /**
+     * @param $a
+     * @param $b
+     * @return number
+     */
+    public function divide($a, $b);
 } 
